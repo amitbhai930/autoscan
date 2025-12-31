@@ -12,5 +12,6 @@ whois==1.20240129.2
 pycryptodome==3.19.0
 lxml==4.9.1
 gunicorn==21.2.0
-python-3.10.12
+
+
 
