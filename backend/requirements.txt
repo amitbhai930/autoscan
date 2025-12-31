@@ -10,5 +10,5 @@ pandas>=2.2.0
 python-nmap==0.7.1
 whois==1.20240129.2
 pycryptodome==3.19.0
-lxml==4.9.3
+lxml>=5.0.0
 gunicorn==21.2.0
