@@ -1635,7 +1635,7 @@
         // AutoScanZ Modern Application
         class AutoScanZApp {
             constructor() {
-                this.apiBaseUrl = 'http://localhost:5000/api';
+                this.apiBaseUrl = 'https://autoscan-backend-15hu.onrender.com/api';
                 this.token = localStorage.getItem('autoscanz_token');
                 this.user = JSON.parse(localStorage.getItem('autoscanz_user') || '{}');
                 this.currentScanId = null;
@@ -2996,4 +2996,5 @@
         window.app = app;
     </script>
 </body>
+
 </html>
